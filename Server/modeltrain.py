@@ -14,7 +14,7 @@ import seaborn as sns; sns.set(font_scale=1.2)
 # Pickle package
 import pickle
 
-if __name__ == "__main__":
+def svmfun(li):
 	df = pd.read_csv('test.csv',sep = ",")
 	df.drop(['lat'],1,inplace=True)
 	df.drop(['lon'],1,inplace=True)
@@ -31,7 +31,8 @@ if __name__ == "__main__":
 	print(accuracy)
 
 	# eg = np.array([[6.107299805,1.558029175,9.599807739],[4.717453003,5.854431152,16.94642639]])
-	eg = np.array([[-2.34185791,6.268630981,12.93972778]])
+	eg = np.array(li)
 	eg = eg.reshape(len(eg),-1)
 	prediction = clf.predict(eg)
-	print(prediction)
+	# print(prediction)
+	return prediction
