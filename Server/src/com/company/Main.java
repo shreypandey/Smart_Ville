@@ -12,7 +12,7 @@ class Main {
 
     public String  addition(String request) {
         try{
-            String url="https://hack36-nobody.herokuapp.com/v1alpha1/graphql";
+            String url="https://smart-ville.herokuapp.com/v1alpha1/graphql";
             URL object=new URL(url);
 
             HttpURLConnection con = (HttpURLConnection) object.openConnection();

@@ -3,8 +3,12 @@ import json
 gateway = JavaGateway()
 random = gateway.jvm.java.util.Random()
 addition_app = gateway.entry_point
-value = addition_app.addition("{\"query\":\"query {\\n  hacktest {\\n    id\\n    name\\n  }\\n}\\n\",\"variables\":null}")
-testing=json.loads(value)
-testing1=testing["data"]
-testing2=testing1["hacktest"]
-print(testing2[1]["name"])
+
+# Gets Data from Potholes Raw Table
+rawData = addition_app.addition("{\"query\":\"query{\\n  PotHolesRaw{\\n    Id\\n    Latitude\\n    Longitude\\n    Acc_X\\n    Acc_Y\\n    Acc_Z\\n    UserId\\n  }\\n}\",\"variables\":null}")
+testing=json.loads(rawData)
+mainData=testing["data"]
+mainData2=mainData["PotHolesRaw"]
+
+for x in mainData2:
+	print(x["Id"])
