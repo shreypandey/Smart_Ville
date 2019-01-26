@@ -112,7 +112,7 @@ public class NavDrawer extends AppCompatActivity
 
         } else if (id == R.id.nav_slideshow) {
 
-            supportMapFragment.getMapAsync(NavDrawer.this);
+            //supportMapFragment.getMapAsync(NavDrawer.this);
 
         } else if (id == R.id.nav_manage) {
 
