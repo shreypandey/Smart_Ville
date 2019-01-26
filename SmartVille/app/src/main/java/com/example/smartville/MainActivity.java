@@ -1,6 +1,8 @@
 package com.example.smartville;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,9 +18,18 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent=new Intent(MainActivity.this,LoginActivity.class);
-                startActivity(intent);
-                finish();
+                SharedPreferences sharedpreferences = getSharedPreferences("Smart_Ville", Context.MODE_PRIVATE);
+                String string=sharedpreferences.getString("status","false");
+                if (string.equals("false")){
+                    Intent intent=new Intent(MainActivity.this,LoginActivity.class);
+                    startActivity(intent);
+                    finish();
+                }
+                else {
+                    Intent intent=new Intent(MainActivity.this,HomeActivity.class);
+                    startActivity(intent);
+                    finish();
+                }
             }
         },1000);
     }
