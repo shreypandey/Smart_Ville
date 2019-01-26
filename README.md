@@ -48,8 +48,8 @@ An Interactive Android App with smart pothole detection and reporting them to au
 <a name="contributor"></a>
 ## Contributors:
 
-* [Shashwat Pandey](www.github.com/shashwat1998)
-* [Suraj Goel](www.github.com/suraj-goel)
-* [Anuj Modi](www.github.com/descifrado)
-* [Shrey Pandey](www.github.com/Shreypandey)
+* [Shashwat Pandey](http://www.github.com/shashwat1998)
+* [Suraj Goel](http://www.github.com/suraj-goel)
+* [Anuj Modi](http://www.github.com/descifrado)
+* [Shrey Pandey](http://www.github.com/Shreypandey)
 
