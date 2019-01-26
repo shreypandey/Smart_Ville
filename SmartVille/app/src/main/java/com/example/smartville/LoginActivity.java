@@ -59,7 +59,7 @@ public class LoginActivity extends AppCompatActivity {
                 emailtext.setError("Email Does not exist");
             }
             else if(passwordget.equals(password)){
-                Intent intent=new Intent(LoginActivity.this,HomeActivity.class);
+                Intent intent=new Intent(LoginActivity.this,NavDrawer.class);
                 SharedPreferences sharedpreferences = getSharedPreferences("Smart_Ville", Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor=sharedpreferences.edit();
                 editor.putString("UID",s[5]);
