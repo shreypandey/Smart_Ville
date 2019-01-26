@@ -3,6 +3,8 @@ package sample;
 import com.jfoenix.controls.JFXComboBox;
 import com.jfoenix.controls.JFXPasswordField;
 import com.jfoenix.controls.JFXTextField;
+import eu.bitm.NominatimReverseGeocoding.Address;
+import eu.bitm.NominatimReverseGeocoding.NominatimReverseGeocodingJAPI;
 import javafx.event.ActionEvent;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -23,6 +25,7 @@ public class Controller_Login
     {
         type.getItems().addAll(Main.types);
     }
+<<<<<<< HEAD
     public void onloginclicked(ActionEvent actionEvent)
     {
         String eid=email.getText();
@@ -69,6 +72,16 @@ public class Controller_Login
         {
             //Log in verified
         }
+=======
+    public void onloginclicked(ActionEvent actionEvent) {
+        NominatimReverseGeocodingJAPI nominatim1 = new NominatimReverseGeocodingJAPI(); //create instance with default zoom level (18)
+
+//        NominatimReverseGeocodingJAPI nominatim2 = new NominatimReverseGeocodingJAPI(18); //create instance with given zoom level
+
+        Address address =  nominatim1.getAdress(19.10495377, 73.00523376); //returns Address object for the given position
+        String addressString = ""+ address.getCity()+" "+address.getRoad() + " "+address.getSuburb();
+        System.out.println(addressString);
+>>>>>>> 52b941418536ffbe16af760f3551c0001558d105
     }
     public void onsubjectclicked(ActionEvent actionEvent)
     {
