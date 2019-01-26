@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="826.0" prefWidth="1081.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_Login">
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="826.0" prefWidth="1081.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_login">
    <children>
       <JFXTextField fx:id="email" focusColor="#6880b2" labelFloat="true" layoutX="418.0" layoutY="337.0" prefHeight="33.0" prefWidth="317.0" promptText="Email-Id" style="-fx-prompt-text-fill: WHITE; -fx-text-inner-color: WHITE;" unFocusColor="#5e788a">
          <font>
@@ -47,30 +47,15 @@
       </Label>
       <ImageView fitHeight="44.0" fitWidth="47.0" layoutX="346.0" layoutY="337.0">
          <image>
-<<<<<<< HEAD
-            <Image url="@../../../../../Squiz/SQuiz_Client/src/gui/download.png" />
-=======
 
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
          </image>
       </ImageView>
       <ImageView fitHeight="44.0" fitWidth="47.0" layoutX="346.0" layoutY="406.0">
          <image>
-<<<<<<< HEAD
-            <Image url="@../../../../../Squiz/SQuiz_Client/src/gui/images.jpeg" />
-         </image>
-      </ImageView>
-      <JFXComboBox fx:id="type" focusColor="#6880b2" labelFloat="true" layoutX="418.0" layoutY="494.0" onAction="#onsubjectclicked" prefHeight="33.0" prefWidth="317.0" promptText="Authority Type" style="-fx-font-size: 18; -fx-text-fill: WHITE; -fx-prompt-text-fill: WHITE; -fx-text-inner-color: WHITE;" unFocusColor="#5e788a">
-=======
 
          </image>
       </ImageView>
-<<<<<<< HEAD
       <JFXComboBox fx:id="authoritytype" focusColor="#6880b2" labelFloat="true" layoutX="418.0" layoutY="494.0" onAction="#onsubjectclicked" prefHeight="33.0" prefWidth="317.0" promptText="Authority Type" style="-fx-font-size: 18; -fx-text-fill: WHITE; -fx-prompt-text-fill: WHITE; -fx-text-inner-color: WHITE;" stylesheets="@backgroundsmall.css" unFocusColor="#5e788a">
-=======
-      <JFXComboBox fx:id="type" focusColor="#6880b2" labelFloat="true" layoutX="418.0" layoutY="494.0" onAction="#onsubjectclicked" prefHeight="33.0" prefWidth="317.0" promptText="Authority Type" style="-fx-font-size: 18; -fx-text-fill: WHITE; -fx-prompt-text-fill: WHITE; -fx-text-inner-color: WHITE;" stylesheets="@backgroundsmall.css" unFocusColor="#5e788a">
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
->>>>>>> 5287e4623a2d296882297a8e19b97fb187976dfa
          <styleClass>
             <String fx:value=".jfx-combo-box {-fx-background-color:  WHITE;}" />
             <String fx:value=".jfx-combo-box .label {-fx-background-color:  WHITE;-fx-text-fill: WHITE;}" />
@@ -78,11 +63,7 @@
       </JFXComboBox>
    </children>
    <stylesheets>
-<<<<<<< HEAD
-      <URL value="@../../../../../Squiz/SQuiz_Client/src/gui/backgroundsmall.css" />
-=======
 
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
       <URL value="@backgroundsmall.css" />
    </stylesheets>
 </AnchorPane>

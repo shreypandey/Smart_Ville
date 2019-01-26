@@ -3,16 +3,11 @@ package sample;
 import com.jfoenix.controls.JFXComboBox;
 import com.jfoenix.controls.JFXPasswordField;
 import com.jfoenix.controls.JFXTextField;
-import eu.bitm.NominatimReverseGeocoding.Address;
-import eu.bitm.NominatimReverseGeocoding.NominatimReverseGeocodingJAPI;
 import javafx.event.ActionEvent;
-<<<<<<< HEAD
 import javafx.fxml.FXML;
-=======
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
->>>>>>> 5287e4623a2d296882297a8e19b97fb187976dfa
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -20,11 +15,12 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class Controller_Login
-{
-    public JFXTextField email;
+public class Controller_login {
+    @FXML
+    JFXTextField email;
+    @FXML
     public JFXPasswordField password;
-<<<<<<< HEAD
+
     @FXML
     JFXComboBox authoritytype;
 
@@ -36,21 +32,13 @@ public class Controller_Login
         Main.types.add("Traffic");
         Main.types.add("Organising");
         authoritytype.getItems().addAll(Main.types);
-    }
-    public void onloginclicked(ActionEvent actionEvent) {
 
-    }
-=======
-    public JFXComboBox type;
-    public void initialize()
-    {
-        type.getItems().addAll(Main.types);
     }
     public void onloginclicked(ActionEvent actionEvent) {
         String eid = email.getText();
         String pass = password.getText();
         String pass_act = "";
-        String typ = (String) type.getSelectionModel().getSelectedItem();
+        String typ = (String) authoritytype.getSelectionModel().getSelectedItem();
         try {
             String url = "https://smart-ville.herokuapp.com/v1alpha1/graphql";
             URL object = new URL(url);
@@ -92,7 +80,7 @@ public class Controller_Login
             } else if (typ == "FireSafety") {
 
             } else if (typ == "LostAndFound") {
->>>>>>> 5287e4623a2d296882297a8e19b97fb187976dfa
+
 
             } else if (typ == "Traffic") {
 
@@ -100,5 +88,8 @@ public class Controller_Login
 
             }
         }
+    }
+
+    public void onsubjectclicked(ActionEvent actionEvent) {
     }
 }
