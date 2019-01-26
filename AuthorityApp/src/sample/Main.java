@@ -23,12 +23,7 @@ public class Main extends Application {
 //        primaryStage.setMaximized(true);
         primaryStage.show();
 
-        types.add(("LostAndFound"));
-        types.add("Police");
-        types.add("HealthCare");
-        types.add("FireSafety");
-        types.add("Traffic");
-        types.add("Organising");
+
 
 
     }
@@ -43,5 +38,14 @@ public class Main extends Application {
 
     public static void main(String[] args){
         Application.launch(args);
+    }
+    public static String getAddress(double lat,double lon){
+        NominatimReverseGeocodingJAPI nominatim1 = new NominatimReverseGeocodingJAPI(); //create instance with default zoom level (18)
+
+//        NominatimReverseGeocodingJAPI nominatim2 = new NominatimReverseGeocodingJAPI(18); //create instance with given zoom level
+
+        Address address =  nominatim1.getAdress(lat, lon); //returns Address object for the given position
+        String addressString = ""+ address.getCity()+" "+address.getRoad() + " "+address.getSuburb();
+        return  addressString;
     }
 }

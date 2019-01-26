@@ -55,7 +55,7 @@
 
          </image>
       </ImageView>
-      <JFXComboBox fx:id="type" focusColor="#6880b2" labelFloat="true" layoutX="418.0" layoutY="494.0" onAction="#onsubjectclicked" prefHeight="33.0" prefWidth="317.0" promptText="Authority Type" style="-fx-font-size: 18; -fx-text-fill: WHITE; -fx-prompt-text-fill: WHITE; -fx-text-inner-color: WHITE;" stylesheets="@backgroundsmall.css" unFocusColor="#5e788a">
+      <JFXComboBox fx:id="authoritytype" focusColor="#6880b2" labelFloat="true" layoutX="418.0" layoutY="494.0" onAction="#onsubjectclicked" prefHeight="33.0" prefWidth="317.0" promptText="Authority Type" style="-fx-font-size: 18; -fx-text-fill: WHITE; -fx-prompt-text-fill: WHITE; -fx-text-inner-color: WHITE;" stylesheets="@backgroundsmall.css" unFocusColor="#5e788a">
          <styleClass>
             <String fx:value=".jfx-combo-box {-fx-background-color:  WHITE;}" />
             <String fx:value=".jfx-combo-box .label {-fx-background-color:  WHITE;-fx-text-fill: WHITE;}" />
