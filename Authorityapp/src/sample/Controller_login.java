@@ -71,20 +71,30 @@ public class Controller_login {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        if (pass_act == pass) {
+        if (pass_act.equals( pass)) {
             System.out.println("Login Verified by Authority");
-            if (typ == "Police") {
+            if (typ.equals("Police"))
+            {
 
-            } else if (typ == "HealthCare") {
+            }
+            else if (typ.equals("HealthCare"))
+            {
 
-            } else if (typ == "FireSafety") {
+            }
+            else if (typ.equals("FireSafety"))
+            {
 
-            } else if (typ == "LostAndFound") {
+            }
+            else if (typ.equals("LostAndFound"))
+            {
 
+            }
+            else if (typ.equals("Traffic"))
+            {
 
-            } else if (typ == "Traffic") {
-
-            } else if (typ == "Organising") {
+            }
+            else if (typ.equals("Organising"))
+            {
 
             }
         }
