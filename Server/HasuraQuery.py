@@ -39,7 +39,3 @@ while True:
 	print("Success")
 
 	time.sleep(300)
-
-
-
-
