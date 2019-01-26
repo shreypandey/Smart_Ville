@@ -6,7 +6,7 @@ import java.util.Enumeration;
 import java.util.UUID;
 
 public class UidGenerator {
-    public String generateUID(){
+    public static String generateUID(){
         Enumeration mnet=null,ip;
         String uid="";
         try{
