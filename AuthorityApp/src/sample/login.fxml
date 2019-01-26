@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="826.0" prefWidth="1081.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_Login">
+   <children>
+      <JFXTextField fx:id="email" focusColor="#6880b2" labelFloat="true" layoutX="418.0" layoutY="337.0" prefHeight="33.0" prefWidth="317.0" promptText="Email-Id" style="-fx-prompt-text-fill: WHITE; -fx-text-inner-color: WHITE;" unFocusColor="#5e788a">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton layoutX="491.0" layoutY="599.0" prefHeight="33.0" prefWidth="106.0" text="Log In" />
+      <JFXButton fx:id="login" layoutX="484.0" layoutY="592.0" onAction="#onloginclicked" prefHeight="26.0" prefWidth="121.0" style="-fx-background-color: white;" text="Log In" textFill="#c43333">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </JFXButton>
+      <Label layoutX="237.0" layoutY="164.0" prefHeight="128.0" prefWidth="615.0" text="Authority Login" textAlignment="RIGHT" textFill="#f5340f">
+         <font>
+            <Font name="System Bold" size="70.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="790.0" prefHeight="16.0" prefWidth="144.0" text="NobodyDoesItBetter" textFill="#c43333" />
+      <JFXPasswordField fx:id="password" focusColor="#6880b2" labelFloat="true" layoutX="418.0" layoutY="414.0" prefHeight="33.0" prefWidth="317.0" promptText="Password" style="-fx-prompt-text-fill: WHITE; -fx-text-inner-color: WHITE;" unFocusColor="#5e788a">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXPasswordField>
+      <Label fx:id="status" alignment="CENTER" layoutX="437.0" layoutY="540.0" prefHeight="26.0" prefWidth="208.0" textFill="#c61111">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="44.0" fitWidth="47.0" layoutX="346.0" layoutY="337.0">
+         <image>
+            <Image url="@../../../../../Squiz/SQuiz_Client/src/gui/download.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="47.0" layoutX="346.0" layoutY="406.0">
+         <image>
+            <Image url="@../../../../../Squiz/SQuiz_Client/src/gui/images.jpeg" />
+         </image>
+      </ImageView>
+      <JFXComboBox fx:id="type" focusColor="#6880b2" labelFloat="true" layoutX="418.0" layoutY="494.0" onAction="#onsubjectclicked" prefHeight="33.0" prefWidth="317.0" promptText="Authority Type" style="-fx-font-size: 18; -fx-text-fill: WHITE; -fx-prompt-text-fill: WHITE; -fx-text-inner-color: WHITE;" unFocusColor="#5e788a">
+         <styleClass>
+            <String fx:value=".jfx-combo-box {-fx-background-color:  WHITE;}" />
+            <String fx:value=".jfx-combo-box .label {-fx-background-color:  WHITE;-fx-text-fill: WHITE;}" />
+         </styleClass>
+      </JFXComboBox>
+   </children>
+   <stylesheets>
+      <URL value="@../../../../../Squiz/SQuiz_Client/src/gui/backgroundsmall.css" />
+      <URL value="@backgroundsmall.css" />
+   </stylesheets>
+</AnchorPane>
