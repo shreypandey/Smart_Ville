@@ -48,6 +48,7 @@ public class Controller
                     id[i]=(String) jsonObject3.get("Id");
                     Latitude[i]=(String)jsonObject3.get("Latitude");
                     Longitude[i]=(String) jsonObject3.get("Longitude");
+                    i++;
                 }
             }
             con.disconnect();
