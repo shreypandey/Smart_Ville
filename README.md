@@ -1,5 +1,9 @@
 <h1 align ="center">Smart Ville</h1>
 
+<p align="center">
+<img src="Assets/logo.png"/>
+ </p>
+
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
