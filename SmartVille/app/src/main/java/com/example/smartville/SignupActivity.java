@@ -93,7 +93,7 @@ public class SignupActivity extends AppCompatActivity {
                 editor.putString("contact",phone);
                 editor.putString("status","true");
                 editor.commit();
-                Intent intent=new Intent(SignupActivity.this,HomeActivity.class);
+                Intent intent=new Intent(SignupActivity.this,NavDrawer.class);
                 startActivity(intent);
                 finish();
 

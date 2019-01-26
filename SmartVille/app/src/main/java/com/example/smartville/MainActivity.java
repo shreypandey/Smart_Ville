@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
                     finish();
                 }
                 else {
-                    Intent intent=new Intent(MainActivity.this,HomeActivity.class);
+                    Intent intent=new Intent(MainActivity.this,NavDrawer.class);
                     startActivity(intent);
                     finish();
                 }

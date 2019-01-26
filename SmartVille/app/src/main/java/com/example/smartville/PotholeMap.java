@@ -60,41 +60,18 @@ public class PotholeMap extends FragmentActivity implements OnMapReadyCallback {
         LatLng sydney = new LatLng(-34, 151);
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
-        Log.e("Chalo","BC");
         new loadPotholes().execute("hello");
         Log.e("Chalo","MC");
         while(flag){
 
         }
-        /*
-        JSONObject jsonObj2=(JSONObject) jsonObj.get("data");
-        JSONArray jarr = (JSONArray) jsonObj2.get("PotHolesMain");
-        for(int j=0;j<jarr.length();j++)
-        {
-            JSONObject jsonObject3=(JSONObject) jarr.get(j);
-            //id[i]=(String) jsonObject3.get("Id");
-            Latitude[j]=(String)jsonObject3.get("Latitude");
-            Longitude[j]=(String) jsonObject3.get("Longitude");
-            //Log.e(Latitude[j],Longitude[j]);
-            num=j;
-        }*/
-        Log.e("Chalo",""+num);
         LatLng mark[]=new LatLng[num];
         for (int j = 0; j <+ num; j++) {
-            // = (String) jsonObject3.get("Latitude");
-            //= (String) jsonObject3.get("Longitude");
-            //num = j;
             LatLng temp=new LatLng(Double.parseDouble(Latitude[j]), Double.parseDouble(Longitude[j]));
-//            if(ArrayUtils.contains(mark,temp)){
-//                continue;
-//            }
             mark[j]=temp;
 
             mMap.addMarker(new MarkerOptions().position(mark[j]).title("Marker in Sydney"));
             Log.e("MArked at",mark[j].latitude+""+mark[j].longitude);
-            //Time.;
-
-
         }
     }
 
@@ -111,6 +88,9 @@ public class PotholeMap extends FragmentActivity implements OnMapReadyCallback {
                 conn.setRequestProperty("Accept", "application/json");
                 conn.setDoOutput(true);
                 conn.setDoInput(true);
+                while(conn==null){
+
+                }
                 DataOutputStream os = new DataOutputStream(conn.getOutputStream());
                 os.writeBytes(query);
                 BufferedReader br = new BufferedReader(new InputStreamReader(
