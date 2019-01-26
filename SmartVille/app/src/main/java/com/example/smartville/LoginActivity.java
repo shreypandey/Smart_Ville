@@ -1,6 +1,8 @@
 package com.example.smartville;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -21,7 +23,7 @@ public class LoginActivity extends AppCompatActivity {
 
     EditText emailtext,passwordtext;
     Button loginButton,Signupbutton;
-    String passwordget;
+    String passwordget,password;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,28 +36,53 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String email=emailtext.getText().toString();
-                String password=CreateHash.createHash(passwordtext.getText().toString());
+                password=CreateHash.createHash(passwordtext.getText().toString());
                 new LoginTask().execute(email);
 
-                if (passwordget==null){
-                    emailtext.setError("Email Does not exist");
-                }
-                else {
-                    Intent intent=new Intent(LoginActivity.this,HomeActivity.class);
-                    startActivity(intent);
-                    finish();
-                }
+
+            }
+        });
+        Signupbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(LoginActivity.this,SignupActivity.class);
+                startActivity(intent);
             }
         });
 
     }
-    class LoginTask extends AsyncTask<String,Void,String>{
+    class LoginTask extends AsyncTask<String,Void,String[]>{
         @Override
-        protected String doInBackground(String... strings) {
-            String passwords1=null;
+        protected void onPostExecute(String[] s) {
+            super.onPostExecute(s);
+            if (passwordget==null){
+                emailtext.setError("Email Does not exist");
+            }
+            else if(passwordget.equals(password)){
+                Intent intent=new Intent(LoginActivity.this,HomeActivity.class);
+                SharedPreferences sharedpreferences = getSharedPreferences("Smart_Ville", Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor=sharedpreferences.edit();
+                editor.putString("UID",s[5]);
+                editor.putString("email",s[1]);
+                editor.putString("fname",s[2]);
+                editor.putString("lname",s[3]);
+                editor.putString("contact",s[4]);
+                editor.putString("status","true");
+                editor.commit();
+                startActivity(intent);
+                finish();
+            }
+            else {
+                passwordtext.setError("Password not matched");
+            }
+        }
+
+        @Override
+        protected String[] doInBackground(String... strings) {
+            String info[]=new String[6];
             try {
                 String email=strings[0];
-                String query = "{\"query\":\"query {\\n  User(\\n    where: {EmailId: {_eq: \\\""+email+"\\\"}}\\n  ) {\\n    EmailId\\n    Password\\n  }\\n}\",\"variables\":null}";
+                String query = "{\"query\":\"query {\\n  User(\\n    where: {EmailId: {_eq: \\\""+email+"\\\"}}\\n  ) {\\n    EmailId\\n    Password\\n    FirstName\\n    LastName\\n    Id\\n    ContactNo\\n  }\\n}\",\"variables\":null}";
 
                 URL url = new URL(MainActivity.hasuraurl);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
@@ -82,7 +109,13 @@ public class LoginActivity extends AppCompatActivity {
                 }
                 String emails=data.getString(0);
                 jsonObj=new JSONObject(emails);
-                passwords1=jsonObj.getString("Password");
+                info[0]=jsonObj.getString("Password");
+                info[1]=jsonObj.getString("EmailId");
+                info[2]=jsonObj.getString("FirstName");
+                info[3]=jsonObj.getString("LastName");
+                info[4]=jsonObj.getString("ContactNo");
+                info[5]=jsonObj.getString("Id");
+
 
                 os.flush();
                 os.close();
@@ -91,8 +124,9 @@ public class LoginActivity extends AppCompatActivity {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            passwordget=passwords1;
-            return passwords1;
+            passwordget=info[0];
+            Log.e("fatal",passwordget);
+            return info;
         }
     }
 }
