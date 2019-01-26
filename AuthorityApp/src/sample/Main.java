@@ -6,6 +6,9 @@ import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main extends Application {
 
     @Override public void start(Stage stage) {
@@ -17,12 +20,21 @@ public class Main extends Application {
         stage.setScene(scene);
         // show stage
         stage.show();
+        types.add(("LostAndFound"));
+        types.add("Police");
+        types.add("HealthCare");
+        types.add("FireSafety");
+        types.add("Traffic");
+        types.add("Organising");
     }
 
     static
     {
         System.setProperty("java.net.useSystemProxies", "true");
     }
+
+    static List<String> types = new ArrayList<>();
+
 
     public static void main(String[] args){
         Application.launch(args);
