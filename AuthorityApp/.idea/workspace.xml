@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jfoenix_8_0_7.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthorityApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AuthorityApp.iml" afterDir="false" />
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
-      <change beforePath="$PROJECT_DIR$/out/production/AuthorityApp/GoogleMap.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AuthorityApp/GoogleMap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AuthorityApp/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AuthorityApp/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AuthorityApp/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AuthorityApp/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AuthorityApp/sample/sample.fxml" beforeDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller_Login.java" afterDir="false" />
-=======
+      <change beforePath="$PROJECT_DIR$/out/production/AuthorityApp/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AuthorityApp/sample/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AuthorityApp/sample/Controller_Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AuthorityApp/sample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Controller_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller_Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/login.fxml" afterDir="false" />
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,29 +61,6 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
-<<<<<<< HEAD
-=======
-  <component name="FUSProjectUsageTrigger">
-    <session id="-2100199656">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="41" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="41" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
@@ -103,54 +69,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="262">
-              <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-=======
-            <state relative-caret-position="324">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
+            <state relative-caret-position="512">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1729#1730#0" expanded="true" />
-                <element signature="e#1769#1770#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="136">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-=======
-<<<<<<< HEAD
-            <state relative-caret-position="-510">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-=======
-<<<<<<< HEAD
-            <state relative-caret-position="136">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-=======
-<<<<<<< HEAD
-            <state relative-caret-position="342">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
->>>>>>> 7b81e544971ff31d1c4bb20906715434e79335de
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/login.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
+            <state relative-caret-position="504">
               <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
             </state>
           </provider>
@@ -160,27 +91,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller_Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-=======
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/Controller_Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
+            <state relative-caret-position="600">
+              <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="415" column="36" selection-end-line="539" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -194,11 +109,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>sq</find>
-    </findStrings>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -215,13 +125,9 @@
         <option value="$PROJECT_DIR$/src/GoogeMap.html" />
         <option value="$PROJECT_DIR$/src/GoogleMap.html" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/sample/login.fxml" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/Test.java" />
-=======
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
         <option value="$PROJECT_DIR$/src/sample/Controller_Login.java" />
       </list>
     </option>
@@ -250,14 +156,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-=======
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,6 +183,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,23 +198,13 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548494170673" />
-=======
-<<<<<<< HEAD
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548493029300" />
-=======
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548481710899" />
->>>>>>> e673e62f7238e6d1d6aa59d130ef6af62b32eb24
->>>>>>> 7b81e544971ff31d1c4bb20906715434e79335de
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548491264275" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/json-20180813.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jfoenix-8.0.7.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -328,11 +218,7 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
   <component name="RunManager" selected="Application.Test">
-=======
-  <component name="RunManager" selected="Application.Main">
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -411,13 +297,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-=======
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Test" />
-    </list>
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
@@ -437,42 +316,16 @@
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1548477254472" duration="1556000" />
       <workItem from="1548480677849" duration="894000" />
-      <workItem from="1548491501506" duration="1593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5345000" />
+    <option name="totallyTimeSpent" value="3752000" />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18229954" />
-=======
-<<<<<<< HEAD
-    <frame x="0" y="27" width="1920" height="996" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18409818" />
-=======
-<<<<<<< HEAD
-    <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
-=======
-<<<<<<< HEAD
-    <frame x="0" y="27" width="1920" height="996" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.15048026" />
-=======
-    <frame x="-8" y="-8" width="1386" height="788" extended-state="1" />
-    <editor active="true" />
->>>>>>> e673e62f7238e6d1d6aa59d130ef6af62b32eb24
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17948718" />
->>>>>>> 317d51f040ba904f8f437d807f3484f4624400a2
->>>>>>> 7b81e544971ff31d1c4bb20906715434e79335de
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18532526" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -482,11 +335,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32569557" />
-=======
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3248848" />
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -533,20 +382,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/sample/login.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="415" column="36" selection-end-line="539" selection-end-column="10" />
-=======
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -555,74 +390,35 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/login.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
+        <state relative-caret-position="504">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="262">
-          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-=======
-        <state relative-caret-position="324">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
+        <state relative-caret-position="512">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1729#1730#0" expanded="true" />
-            <element signature="e#1769#1770#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="136">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-=======
-        <state relative-caret-position="-510">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller_Login.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="442">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-=======
-<<<<<<< HEAD
-        <state relative-caret-position="450">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-=======
-<<<<<<< HEAD
-        <state relative-caret-position="136">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-=======
-<<<<<<< HEAD
-        <state relative-caret-position="234">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-=======
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
->>>>>>> 317d51f040ba904f8f437d807f3484f4624400a2
->>>>>>> 7b81e544971ff31d1c4bb20906715434e79335de
->>>>>>> 52b941418536ffbe16af760f3551c0001558d105
+        <state relative-caret-position="600">
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -694,7 +490,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>json-20180813</last-edited>
+          <last-edited>jfoenix-8.0.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
