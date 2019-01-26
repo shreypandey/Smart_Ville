@@ -9,7 +9,7 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
-
+    
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,7 +17,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+        <service android:name=".SendData"/>
+        <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".LoginActivity">
+=======
+        <activity android:name=".Emergency"/>
+>>>>>>> 0ef07df8d6c670f086caff9ea9f2a8533ea0d544
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -29,6 +38,7 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
+>>>>>>> 4e205ec6ced5a0c351a5aa6f622bef893f8bdfa3
 
         <activity
             android:name=".routeMap"
