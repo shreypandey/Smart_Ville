@@ -4,7 +4,6 @@
     <list default="true" id="0927ac98-3ebc-4b94-b0b7-ba297987ddc1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HasuraQuery.py" beforeDir="false" afterPath="$PROJECT_DIR$/HasuraQuery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modeltrain.py" beforeDir="false" afterPath="$PROJECT_DIR$/modeltrain.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +66,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="27" />
     <option name="width" value="1612" />
     <option name="height" value="876" />
@@ -136,15 +135,15 @@
       <option name="presentableId" value="Default" />
       <updated>1548444753649</updated>
       <workItem from="1548444770168" duration="1229000" />
-      <workItem from="1548448354210" duration="2157000" />
+      <workItem from="1548448354210" duration="4499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3386000" />
+    <option name="totallyTimeSpent" value="5728000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="996" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="996" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

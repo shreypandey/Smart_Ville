@@ -19,11 +19,10 @@ for x in mainData2:
 
 output = svmfun(rawList)
 
-mainPotholequery = "{\"query\":\"mutation insert_PotHolesMain{\\n  insert_PotHolesMain(objects: [\\n    {\\n      Id1 : \\\"880\\\"\\n      Latitude : \\\"808\\\"\\n      Longitude :\\\"9823\\\",\\n      Acc_X:\\\"796 \\\",\\n      Acc_Y:\\\"903283\\\",\\n      Acc_Z:\\\"89271\\\",\\n      Confidence: \\\"0.5\\\"\\n      \\n    \\n    }\\n  ]\\n  )\\n  {\\n    affected_rows\\n  }\\n}\\n\",\"variables\":null,\"operationName\":\"insert_PotHolesMain\"}"
-
 for idx, val in enumerate(output):
     if val == 1:
-    	addition_app.addition("{\"query\":\"mutation insert_PotHolesMain{\\n  insert_PotHolesMain(objects: [\\n    {\\n      Latitude : \\\"808\\\"\\n      Longitude :\\\"9823\\\",\\n      Acc_X:\\\"796 \\\",\\n      Acc_Y:\\\"903283\\\",\\n      Acc_Z:\\\"89271\\\",\\n      Confidence: \\\"0.5\\\"\\n      \\n    \\n    }\\n  ]\\n  )\\n  {\\n    affected_rows\\n  }\\n}\\n\",\"variables\":null,\"operationName\":\"insert_PotHolesMain\"}")
+    	# addition_app.addition("{\"query\":\"mutation insert_PotHolesMain{\\n  insert_PotHolesMain(objects: [\\n    {\\n      Latitude : \\\"%s\\\"%(rawLoc[idx][0])\\n      Longitude :\\\"%s\\\"%(rawLoc[idx][1]),\\n      Acc_X:\\\"%s \\\"%(rawList[idx][0]),\\n      Acc_Y:\\\"%s\\\"%(rawList[idx][1]),\\n      Acc_Z:\\\"%s\\\"%(rawList[idx][2]),\\n      Confidence: \\\"0.5\\\"\\n      \\n    \\n    }\\n  ]\\n  )\\n  {\\n    affected_rows\\n  }\\n}\\n\",\"variables\":null,\"operationName\":\"insert_PotHolesMain\"}")
+    	addition_app.addition("{\"query\":\"mutation insert_PotHolesMain{\\n  insert_PotHolesMain(objects: [\\n    {\\n      Latitude : \\\""+rawLoc[idx][0]+"\\\"\\n      Longitude :\\\""+rawLoc[idx][1]+"\\\",\\n      Acc_X:\\\""+rawList[idx][0]+"\\\",\\n      Acc_Y:\\\""+rawList[idx][1]+"\\\",\\n      Acc_Z:\\\""+rawList[idx][2]+"\\\",\\n      Confidence: \\\"0.5\\\"\\n      \\n    \\n    }\\n  ]\\n  )\\n  {\\n    affected_rows\\n  }\\n}\\n\",\"variables\":null,\"operationName\":\"insert_PotHolesMain\"}")
     	testing=json.loads(rawData)
     	mainData=testing["data"]
 
