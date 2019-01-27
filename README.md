@@ -1,7 +1,7 @@
 <h1 align ="center">Smart Ville</h1>
 
 <p align="center">
-<img src="Assets/logo.png"/>
+<img src="Assets/icon-02.png"/>
  </p>
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
@@ -56,4 +56,16 @@ An Interactive Android App with smart pothole detection and reporting them to au
 * [Suraj Goel](http://www.github.com/suraj-goel)
 * [Anuj Modi](http://www.github.com/descifrado)
 * [Shrey Pandey](http://www.github.com/Shreypandey)
+
+## ScreenShots:
+![screenshot_20190127-074659](https://user-images.githubusercontent.com/29855009/51795409-ee9f2280-2208-11e9-8dcf-bb5b156da3be.png)
+
+
+![screenshot_20190127-074354](https://user-images.githubusercontent.com/29855009/51795449-80a72b00-2209-11e9-9f07-3ab3ef8a83cc.png)
+
+
+![screenshot from 2019-01-27 07-30-03](https://user-images.githubusercontent.com/29855009/51795412-04144c80-2209-11e9-9fed-8222214e76e5.png)
+
+
+ 
 
