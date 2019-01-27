@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    tools:context=".LoginActivity">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+
+        android:layout_marginLeft="145dp"
+        android:layout_marginRight="145dp"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:layout_marginTop="80dp"
+        android:id="@+id/login_heading"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Email"
+        android:layout_below="@id/login_heading"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/login_emailinput"
+        />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@id/login_emailinput"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/login_passwordinput"
+        />
+    <Button android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/login_passwordinput"
+        android:layout_marginTop="70dp"
+        android:id="@+id/login_loginButton"
+        android:textColor="#ffffff"
+        android:background="#696969"
+        />
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textAlignment="center"
+
+        android:textSize="20dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginRight="190dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/login_loginButton"
+        />
+    <Button android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Create new account"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:background="#696969"
+        android:layout_below="@id/login_passwordinput"
+        android:layout_marginTop="230dp"
+        android:id="@+id/login_newaccountButton"
+        />
+</RelativeLayout>
