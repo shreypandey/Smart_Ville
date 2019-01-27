@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartville">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+<<<<<<< HEAD:SmartVille/app/src/main/AndroidManifest.xml
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+        <service android:name=".SendData"/>
+        <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".LoginActivity">
+=======
+        <activity android:name=".Emergency"/>
+>>>>>>> 0ef07df8d6c670f086caff9ea9f2a8533ea0d544
+=======
+
+>>>>>>> f2d108739628c44e4d1063168f7debf6118195b7:SmartVille2/app/src/main/AndroidManifest.xml
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+<<<<<<< HEAD:SmartVille/app/src/main/AndroidManifest.xml
+            android:name=".routeMap"
+            android:label="@string/title_activity_route_map"/>
+        <activity
+            android:name=".PathGoogleMapActivity">
+
+        </activity>
+        <activity android:name=".TravelRoute" />
+        <activity
+            android:name=".PotholeMap"
+            android:label="@string/title_activity_pothole_map">
+
+        </activity>
+        <activity
+            android:name=".NavDrawer"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignupActivity" />
+=======
+            android:name=".GetRoutes"
+            android:label="@string/title_activity_get_routes"></activity>
+        <activity
+            android:name=".ShowPotholes"
+            android:label="@string/title_activity_show_potholes" />
+>>>>>>> f2d108739628c44e4d1063168f7debf6118195b7:SmartVille2/app/src/main/AndroidManifest.xml
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".PathGoogleMapActivity" />
+        <activity android:name=".MainActivity">
+<<<<<<< HEAD:SmartVille/app/src/main/AndroidManifest.xml
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+=======
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+>>>>>>> f2d108739628c44e4d1063168f7debf6118195b7:SmartVille2/app/src/main/AndroidManifest.xml
+        </activity>
+    </application>
+
+</manifest>

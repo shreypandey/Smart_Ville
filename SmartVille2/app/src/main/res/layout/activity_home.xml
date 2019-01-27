@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMART VILLE"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:layout_marginTop="35dp"
+        android:textColor="#a000f0"
+        android:layout_alignParentTop="true"
+        android:id="@+id/home_smartville"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_smartville"
+        android:layout_marginTop="45dp"
+        android:hint="Enter Source"
+        android:id="@+id/home_source"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_source"
+        android:layout_marginTop="55dp"
+        android:id="@+id/home_destination"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Enter Destination"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Route"
+        android:layout_below="@id/home_destination"
+        android:layout_marginTop="55dp"
+        android:layout_centerInParent="true"
+        android:textSize="17dp"
+        android:id="@+id/home_GetRoute"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:layout_below="@id/home_GetRoute"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="55dp"
+        android:textSize="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW POTHOLES"
+        android:layout_below="@id/home_GetRoute"
+        android:layout_marginTop="110dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/home_ShowPotholes"/>
+
+</RelativeLayout>
